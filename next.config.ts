@@ -1,7 +1,13 @@
 import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: [
+      "i.dummyjson.com",
+      "cdn.dummyjson.com",
+    ],
+  },
   reactCompiler: true,
 };
 
